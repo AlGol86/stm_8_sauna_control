@@ -5,14 +5,14 @@
 
 
 
-#define PIN_sda_1     2  //port A
-#define PIN_clk_1     3  //port A
-#define PIN_sda_2     4  //port B
-#define PIN_clk_2     5  //port B
+#define PIN_sda_1     2  //port A LM75A
+#define PIN_clk_1     3  //port A LM75A
+#define PIN_sda_2     4  //port B AHT10
+#define PIN_clk_2     5  //port B AHT10
 
 #define BIT_sda_1    (1<<PIN_sda_1)
 #define BIT_clk_1    (1<<PIN_clk_1)
-#define BIT_sda_2    (1<<PIN_sda_2)
+#define BIT_sda_2    (1<<PIN_sda_2) 
 #define BIT_clk_2    (1<<PIN_clk_2)
 
 #define BIT_read    1
